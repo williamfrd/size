@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/funcoes.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <header>
+		<div class="caixa">
+			<h1><img src="logo.png"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sobre.html">Sobre Nós</a></li>
+					<li><a href="login.html">Cadastro</a></li>
+					<li><a href="downloadapp.html">Download App</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+            <form method="post" id="FCadastro" action="mailto:sizeclothing@sizeclothing.com">
+                <fieldset id="usuario">
+                    <legend>Dados pessoais</legend>
+                        <p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" placeholder="Nome"></p>
+                        <p><label for="cSobrenome">Sobrenome: </label><input type="text" name="tSobrenome" id="cSobrenome" placeholder="Sobrenome"></p>
+                        <p><label for="cApelido">Apelido: </label><input type="text" name="tApelido" id="cApelido" placeholder="Apelido"></p>
+                        <fieldset id="sexo"><legend>Sexo:</legend>
+                            <input type="radio" name="tSexo" id="cMasc"><label for="cMasc">Masculino</label></br>
+                            <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+                        </fieldset>
+                        <p><label for="cDatanasc">Data de Nascimento: </label><input type="date" name="tDatanasc" id="cDatanasc"></p>
+                        <p><label for="cCPF">CPF: </label><input type="text" name="tCPF" id="cCPF" placeholder="xxx.xxx.xxx-xx" maxlength="14" onkeypress="mascara_cpf()"></p>
+                        <p><label for="cTel">Telefone: </label><input type="text" name="tTel" id="cTel" placeholder="(xx)xxxxx-xxxx" maxlength="14" onkeypress="mascara_telefone()"></p>
+                        <p><label for="cEmail">E-mail: </label><input type="email" name="tEmail" id="cEmail" placeholder="exemplo@exemplo.com.br"></p>
+                        <p><label for="cSenha">Senha: </label><input type="password" name="tSenha" id="cSenha" placeholder="aB@123"></p>
+                </fieldset>
+
+            <fieldset id="endereco">
+                <legend>Localidade</legend>
+                    <p><label for="cPais">País: </label><input type="text" name="tPais" id="cPais" size="20" maxlength="50"></p>
+                    <p><label for="cEst">Estado: </label><input type="text" name="tEst" id="cEst" size="20" maxlength="50"></p>
+                    <p><label for="cCEP">CEP: </label><input type="text" name="tCEP" id="cCEP" placeholder="xxxxx-xxx" maxlength="9" onkeypress="mascara_CEP()"></p>
+                    <p><label for="cCidade">Cidade: </label><input type="text" name="tCidade" id="cCidade" size="20" maxlength="50"></p>
+                    <p><label for="cBairro">Bairro: </label><input type="text" name="tBairro" id="cBairro" size="20" maxlength="50"></p>
+                    <p><label for="cRua">Rua: </label><input type="text" name="tRua" id="cRua" size="20" maxlength="80"></p>
+                    <p><label for="cNum">Número: </label><input type="text" name="tNum" id="cNum" min="0"></p>
+                    <p><label for="cComple">Complemento: </label><input type="text" name="tComple" id="cComple" size="20" maxlength="80" placeholder="Casa, Aparamento, Trabalho"></p>
+            </fieldset>
+
+            <fieldset id="mensagem">
+                <legend>Mensagem</legend>
+                    <p><label for="cUrg">Grau de urgência: Mín</label><input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5">Máx</p>
+                    <p><label for="cMsg">Mensagem: </label><textarea name="tMsg" id="cMsg" cols="45" rows="10" placeholder="Deixe aqui sua mensagem"></textarea></p>
+            </fieldset>
+                <div id="botao">
+                    <input type="submit" name="botao" value="CRIAR CONTA" class="botaoEnviar">
+                </div>
+        </form>
+    </div>
+
+    <footer>
+		<div class="paragrafo">
+        <p>© Copyright Size Clothing S/A<br>CNPJ 15.095.271/0005-79 Av. Padre Cletus Francis Cox, 1661 - Country Club, Poços de Caldas - MG, 37714-620<br>Telefone: (44) 3351-5000<br>Todos os direitos reservados.</p>
+        </div>
+	</footer>
+
+</body>
+</html>

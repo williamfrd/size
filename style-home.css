@@ -1,0 +1,148 @@
+.videosize {
+	margin: 2em auto;
+	width: 100%
+}
+
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+
+}
+
+.titulo-principal {
+	padding: 30px;
+	text-align: center
+
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
+
+.gifsize {
+	display: block;
+	margin: 0 auto;
+}
+	
+.funcapp {
+	text-align: center;
+
+}
+
+.textoprincipal {
+	text-align: center;
+	font-size: 30px;
+}
+.videosize {
+	margin: 2em auto;
+	width: 100%
+}
+
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+
+}
+
+.titulo-principal {
+	padding: 30px;
+	text-align: center
+
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
+
+.gifsize {
+	display: block;
+	margin: 0 auto;
+}
+	
+.funcapp {
+	text-align: center;
+
+}
+
+
+footer {
+    position: absolute;
+    bottom: -500px ;
+    background: #333;
+    height: auto;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+  }

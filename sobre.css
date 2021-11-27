@@ -1,0 +1,69 @@
+#closetimg {
+	width: 1000px;
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main {
+	text-align: center;
+	font-size: 16px;
+	padding: 50px;
+	
+}
+
+footer{
+    background: url("bg.jpg");
+	position: absolute;
+    text-align: center;
+    bottom: auto;
+    background: #333;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: auto;
+	padding: 40px 0;
+}
